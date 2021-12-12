@@ -293,7 +293,6 @@ def game_over():
 	writer.setposition(-150,0)
 	writer.write("GAME OVER! YOU LOSE!", font=("Arial", 25, "bold"))
 	time.sleep(5)
-	writer.setposition(-150,0)
 	writer.clear()
 	writer.write("You earned: "+str(score)+ " points!", font=("Arial", 25, "bold"))
 
